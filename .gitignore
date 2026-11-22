@@ -1,0 +1,20 @@
+# Exclude heavy video datasets
+train_sample_videos/
+prepared_dataset/
+split_dataset/
+*.mp4
+*.avi
+*.mov
+
+# Exclude large trained model checkpoints (>100MB)
+*.h5
+*.hdf5
+*.pb
+*.onnx
+
+# Python cache & virtual environment
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
